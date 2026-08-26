@@ -1,0 +1,59 @@
+Quest1 Project — AI Prompt Log
+================================
+
+Purpose
+-------
+This file records the meaningful prompts used during the development of the Quest1
+assessment, preserving the progression of the implementation rather than replacing
+earlier approaches when the approach changed.
+
+Note: This log is based on the project prompts available in the conversation
+history. These contain the summary of the prompts, even though a few of the debugging prompts are not present here
+
+1. Project implementation
+--------------------------
+"help me understand this project from scratch
+the system should take a publicly accessible url and 
+Input
+Use this publicly accessible video URL: https://ok.ru/video/248244667877
+Output
+Your program should produce, at minimum:
+● The timestamp of the identified frame
+● The frame number, where applicable
+● The extracted dialogue text
+● The corresponding video frame as an image
+For example:
+Timestamp : HH:MM:SS.sss
+Frame : <Frame number>
+Text : "My mind rebels at stagnation"
+along with the corresponding image from the video.
+give these as output
+the on-screen dialogue will be the audio dialogue not visually on screen"
+
+2. Alternative source / downloading
+------------------------------------
+"what if that video is not in dailymotion"
+
+"impersonating chrome helps yt-dlp"
+
+3. Transcription efficiency
+----------------------------
+"ok will it stop after getting the desired dialogue or does it run for the full video"
+
+"ok so for 54min video how long will it take to transcribe"
+
+"can we make the program to find the sentence using some search algorithm, so we dont transcribe the entire audio??"
+
+4. Chunked search
+-----------------
+"can we use the overlapping chunks approach"
+
+"what approach would be better if we had to look for the audio towards the end or the middle"
+
+5. Coarse-to-fine implementation
+--------------------------------
+"okay let's implement this give the respective codes for it to work this way"
+
+6. Partial-data / streaming idea
+--------------------------------
+"another doubt is downloading the only way to perform, can we not fetch and run the process for small amts of data parallely???"

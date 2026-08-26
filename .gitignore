@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Media files
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.ts
+*.m4v
+*.part
+*.part-Frag*.part
+
+# Audio files
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.flac
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
