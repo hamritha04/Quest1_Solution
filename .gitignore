@@ -8,6 +8,10 @@ venv/
 .venv/
 env/
 
+# Output
+output/*
+!output/identified_frame.jpg
+
 # Media files
 *.mp4
 *.mkv
